@@ -1,0 +1,73 @@
+body {
+    background: silver;
+    font: 14px 'trebuchet ms', arial, sans-serif;
+}
+
+/** Structure */
+#header {
+    padding: 20px;
+    background: #ff9900;
+    color: #fff;
+
+}
+
+#content {
+    background: #fff;
+    padding: 20px;
+}
+
+#footer {
+    background: #ff9900;
+    color: #fff;
+    padding: 20px;
+
+}
+
+/* Links */
+#header a {
+    color: #fff;
+    padding: 4px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#header a:hover {
+
+}
+
+/** Forms */
+form {
+    font: 100% verdana,arial,sans-serif;
+}
+
+form label { 
+    display: block;
+    float: left; 
+    width: 150px; 
+    padding: 0; 
+    margin: 9px 0 0;
+    text-align: right; 
+}
+
+form input, form select {
+    width: auto;
+    margin: 5px 0 0 10px;
+    border: 1px solid gray;
+    padding: 4px;
+}
+
+form input[type=submit]:hover {
+    cursor: pointer;
+    background: silver;
+}
+
+
+form br {clear: left;}
+
+
+
+
+
+
+
