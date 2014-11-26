@@ -1,6 +1,6 @@
 <?php
 /**
- * 
+ * Checks for login session
  */
 class Auth
 {
